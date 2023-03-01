@@ -1,3 +1,9 @@
+{{-- @section('title', 'Портфолио') --}}
+
+<x-menu></x-menu>
+
+{{-- @section('content') --}}
+
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -24,10 +30,10 @@
         
         <section class="calculator">calculator</section>
         <section class="feedback">feedback</section>
-        <div>
+        {{-- <div>
           <section class="references">references</section>
         <section class="projects">projects</section>  
-        </div>
+        </div> --}}
     </main>
     <footer>
         <div class="container">footer</div>
@@ -35,3 +41,5 @@
 </body>
 
 </html>
+
+{{-- @endsection --}}

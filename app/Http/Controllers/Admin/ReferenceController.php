@@ -14,7 +14,7 @@ class ReferenceController extends Controller
      */
     public function index()
     {
-        //
+        return \view('admin.references.index');
     }
 
     /**

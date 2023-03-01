@@ -14,7 +14,7 @@ class CompetencyController extends Controller
      */
     public function index()
     {
-        //
+        return \view('admin.competencies.index');
     }
 
     /**
